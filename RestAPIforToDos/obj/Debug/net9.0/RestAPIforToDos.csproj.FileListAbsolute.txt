@@ -1,0 +1,7 @@
+C:\Users\hero6\source\repos\RestAPIforToDos\RestAPIforToDos\obj\Debug\net9.0\RestAPIforToDos.csproj.AssemblyReference.cache
+C:\Users\hero6\source\repos\RestAPIforToDos\RestAPIforToDos\obj\Debug\net9.0\ToDoApp.MainForm.resources
+C:\Users\hero6\source\repos\RestAPIforToDos\RestAPIforToDos\obj\Debug\net9.0\RestAPIforToDos.csproj.GenerateResource.cache
+C:\Users\hero6\source\repos\RestAPIforToDos\RestAPIforToDos\obj\Debug\net9.0\RestAPIforToDos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hero6\source\repos\RestAPIforToDos\RestAPIforToDos\obj\Debug\net9.0\RestAPIforToDos.AssemblyInfoInputs.cache
+C:\Users\hero6\source\repos\RestAPIforToDos\RestAPIforToDos\obj\Debug\net9.0\RestAPIforToDos.AssemblyInfo.cs
+C:\Users\hero6\source\repos\RestAPIforToDos\RestAPIforToDos\obj\Debug\net9.0\RestAPIforToDos.csproj.CoreCompileInputs.cache
