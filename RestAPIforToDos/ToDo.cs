@@ -1,5 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Windows.Foundation.Metadata;
 
 namespace RestAPIforToDos
 {
@@ -17,7 +18,8 @@ namespace RestAPIforToDos
         [Column(TypeName = "timestamp")]
         public DateTime DateOfExpiry { get; set; }
 
-
+        [Required]
+        [System.ComponentModel.DataAnnotations.Range(0, 100)]
         public int Complete { get; set; }
 
         [Required]
@@ -29,7 +31,7 @@ namespace RestAPIforToDos
         {
             Title = string.Empty;
             Description = string.Empty;
-            DateOfExpiry = DateTime.MinValue;
+            DateOfExpiry = DateTime.UtcNow.AddDays(1);
             Complete = 0;
             Done = false;
         }

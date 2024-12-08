@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "6RuBPHFDqsT7Gl11s6uMza7IMV0fPOrJH1DyGPyVM0M=",
+  "Source": "RestAPIforToDos",
+  "BasePath": "_content/RestAPIforToDos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

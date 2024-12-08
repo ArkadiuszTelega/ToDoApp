@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|c:\\users\\hero6\\documents\\github\\todoapp\\restapifortodos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|solutionrelative:restapifortodos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|c:\\users\\hero6\\documents\\github\\todoapp\\restapifortodos\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|solutionrelative:restapifortodos\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|c:\\users\\hero6\\documents\\github\\todoapp\\restapifortodos\\models\\todomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|solutionrelative:restapifortodos\\models\\todomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|c:\\users\\hero6\\documents\\github\\todoapp\\restapifortodos\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|solutionrelative:restapifortodos\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|c:\\users\\hero6\\documents\\github\\todoapp\\restapifortodos\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|solutionrelative:restapifortodos\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|c:\\users\\hero6\\documents\\github\\todoapp\\restapifortodos\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|solutionrelative:restapifortodos\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|c:\\users\\hero6\\documents\\github\\todoapp\\restapifortodos\\restapifortodos.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|solutionrelative:restapifortodos\\restapifortodos.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|c:\\users\\hero6\\documents\\github\\todoapp\\restapifortodos\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2708454F-C2FA-48E6-AC88-120513BCA0E6}|RestAPIforToDos\\RestAPIforToDos.csproj|solutionrelative:restapifortodos\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Startup.cs",
+              "RelativeDocumentMoniker": "RestAPIforToDos\\Startup.cs",
+              "ToolTip": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Startup.cs",
+              "RelativeToolTip": "RestAPIforToDos\\Startup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T20:59:32.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\docker-compose.yml",
+              "RelativeDocumentMoniker": "RestAPIforToDos\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\docker-compose.yml",
+              "RelativeToolTip": "RestAPIforToDos\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-08T18:53:44.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RestAPIforToDos\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "RestAPIforToDos\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:28:05.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDosController.cs",
+              "DocumentMoniker": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Controllers\\ToDosController.cs",
+              "RelativeDocumentMoniker": "RestAPIforToDos\\Controllers\\ToDosController.cs",
+              "ToolTip": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Controllers\\ToDosController.cs",
+              "RelativeToolTip": "RestAPIforToDos\\Controllers\\ToDosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:56:23.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoManager.cs",
+              "DocumentMoniker": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Models\\ToDoManager.cs",
+              "RelativeDocumentMoniker": "RestAPIforToDos\\Models\\ToDoManager.cs",
+              "ToolTip": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Models\\ToDoManager.cs",
+              "RelativeToolTip": "RestAPIforToDos\\Models\\ToDoManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:56:12.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Program.cs",
+              "RelativeDocumentMoniker": "RestAPIforToDos\\Program.cs",
+              "ToolTip": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Program.cs",
+              "RelativeToolTip": "RestAPIforToDos\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:55:45.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RestAPIforToDos",
+              "DocumentMoniker": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\RestAPIforToDos.csproj",
+              "RelativeDocumentMoniker": "RestAPIforToDos\\RestAPIforToDos.csproj",
+              "ToolTip": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\RestAPIforToDos.csproj",
+              "RelativeToolTip": "RestAPIforToDos\\RestAPIforToDos.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T20:46:02.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Dockerfile",
+              "RelativeDocumentMoniker": "RestAPIforToDos\\Dockerfile",
+              "ToolTip": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\Dockerfile",
+              "RelativeToolTip": "RestAPIforToDos\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-08T19:15:49.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

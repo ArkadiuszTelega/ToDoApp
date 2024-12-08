@@ -9,7 +9,7 @@ namespace RestAPIforToDos
 {
     internal partial class MainForm : Form
     {
-        private ToDoManager toDoManager;
+        private readonly ToDoManager toDoManager;
 
         public MainForm(ToDoManager toDoManager)
         {
@@ -36,7 +36,7 @@ namespace RestAPIforToDos
 
             if (!string.IsNullOrEmpty(title))
             {
-                ToDo newToDo = new ToDo(title, description, dateOfExpiry);
+                ToDo newToDo = new (title, description, dateOfExpiry);
                 await toDoManager.AddToDoAsync(newToDo);
                 AddToDoToListView(newToDo);
             }
@@ -50,26 +50,10 @@ namespace RestAPIforToDos
             todoTimePicker.Value = DateTime.Now;
         }
 
-        private void AddToDoToListView(ToDo toDo)
-        {
-            ListViewItem item = new ListViewItem(toDo.Title);
-            item.SubItems.Add(toDo.DateOfExpiry.ToShortDateString());
-            item.SubItems.Add(toDo.Done ? "Done" : $"{100 - toDo.Complete}% to be completed");
-            item.Tag = toDo.Id;
-            listViewToDos.Items.Add(item);
-        }
-
         private async void MainForm_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("MainForm_Load called"); // Temporary check
-
-            listViewToDos.Items.Clear();
-
             var toDos = await toDoManager.GetToDosAsync();
-            foreach (var toDo in toDos)
-            {
-                AddToDoToListView(toDo);
-            }
+            ClearAndReloadListView(toDos);
         }
 
         private async void buttonDelete_Click(object sender, EventArgs e)
@@ -146,11 +130,7 @@ namespace RestAPIforToDos
                         await toDoManager.UpdateToDoAsync(toDoItem);
 
                         List<ToDo> toDos = await toDoManager.GetToDosAsync();
-                        listViewToDos.Items.Clear();
-                        foreach (var toDo in toDos)
-                        {
-                            AddToDoToListView(toDo);
-                        }
+                        ClearAndReloadListView(toDos);
 
                         txtboxUpdTitle.Text = string.Empty;
                         txtboxUpdateDesc.Text = string.Empty;
@@ -172,12 +152,12 @@ namespace RestAPIforToDos
 
         private void upDownComplete_ValueChanged(object sender, EventArgs e)
         {
-            if (listViewToDos.SelectedItems.Count > 99 && !checkBoxDone.Checked)
+            if (upDownComplete.Value > 99 && !checkBoxDone.Checked)
             {
                 checkBoxDone.Checked = true;
             }
 
-            if (listViewToDos.SelectedItems.Count < 100 && checkBoxDone.Checked)
+            if (upDownComplete.Value < 100 && checkBoxDone.Checked)
             {
                 checkBoxDone.Checked = false;
             }
@@ -185,40 +165,73 @@ namespace RestAPIforToDos
 
         private void reloadButton_Click(object sender, EventArgs e)
         {
-            using (var context = new AppDbContext())
-            {
-                var toDos = context.ToDos.ToList();
-                listViewToDos.Items.Clear();
-                foreach (var toDo in toDos)
-                {
-                    AddToDoToListView(toDo);
-                }
-                MessageBox.Show($"Direct query loaded {toDos.Count} ToDos.");
-            }
+            using var context = new AppDbContext();
+            var toDos = context.ToDos.ToList();
+            ClearAndReloadListView(toDos);
         }
 
         private async void buttonShowDone_Click(object sender, EventArgs e)
         {
             if (buttonShowDone.Text == "Show done")
             {
-                listViewToDos.Items.Clear();
+
                 List<ToDo> list = await toDoManager.GetDoneToDosAsync();
-                foreach (var todo in list)
-                {
-                    AddToDoToListView(todo);
-                }
+                ClearAndReloadListView(list);
                 buttonShowDone.Text = "Show not done";
             }
             else
             {
-                listViewToDos.Items.Clear();
                 List<ToDo> list = await toDoManager.GetNotDoneToDosAsync();
-                foreach (var todo in list)
-                {
-                    AddToDoToListView(todo);
-                }
-
+                ClearAndReloadListView(list);
                 buttonShowDone.Text = "Show done";
+            }
+        }
+
+        private void ClearAndReloadListView(IEnumerable<ToDo> toDos)
+        {
+            listViewToDos.Items.Clear();
+            foreach (var toDo in toDos)
+            {
+                AddToDoToListView(toDo);
+            }
+        }
+
+        private void AddToDoToListView(ToDo toDo)
+        {
+            ListViewItem item = new ListViewItem(toDo.Title);
+            item.SubItems.Add(toDo.DateOfExpiry.ToShortDateString());
+            item.SubItems.Add(toDo.Done ? "Done" : $"{100 - toDo.Complete}% to be completed");
+            item.Tag = toDo.Id;
+            listViewToDos.Items.Add(item);
+        }
+
+        private async void todoCalendar_DateSelected(object sender, DateRangeEventArgs e)
+        {
+            var ToDos = await toDoManager.GetToDosRangeAsync(todoCalendar.SelectionStart, todoCalendar.SelectionEnd);
+            ClearAndReloadListView(ToDos);
+        }
+
+        private async void buttonDone_Click(object sender, EventArgs e)
+        {
+            if (listViewToDos.SelectedItems.Count > 0)
+            {
+                var selectedItem = listViewToDos.SelectedItems[0];
+                int? toDoId = selectedItem.Tag as int?;
+
+                if (toDoId.HasValue)
+                {
+                    await toDoManager.MarkDoneToDoAsync(toDoId.Value);
+                    var toDos = await toDoManager.GetToDosAsync();
+                    ClearAndReloadListView(toDos);
+                }
+                else
+                {
+                    MessageBox.Show("Invalid ToDo selected. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a ToDo to mark as Done", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

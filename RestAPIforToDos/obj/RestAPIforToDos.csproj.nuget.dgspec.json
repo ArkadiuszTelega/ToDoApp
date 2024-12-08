@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hero6\\source\\repos\\RestAPIforToDos\\RestAPIforToDos\\RestAPIforToDos.csproj": {}
+    "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\RestAPIforToDos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hero6\\source\\repos\\RestAPIforToDos\\RestAPIforToDos\\RestAPIforToDos.csproj": {
+    "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\RestAPIforToDos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hero6\\source\\repos\\RestAPIforToDos\\RestAPIforToDos\\RestAPIforToDos.csproj",
+        "projectUniqueName": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\RestAPIforToDos.csproj",
         "projectName": "RestAPIforToDos",
-        "projectPath": "C:\\Users\\hero6\\source\\repos\\RestAPIforToDos\\RestAPIforToDos\\RestAPIforToDos.csproj",
+        "projectPath": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\RestAPIforToDos.csproj",
         "packagesPath": "C:\\Users\\hero6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hero6\\source\\repos\\RestAPIforToDos\\RestAPIforToDos\\obj\\",
+        "outputPath": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,13 +58,6 @@
                 "NU1701"
               ]
             },
-            "Microsoft.AspNet.WebApi.Owin": {
-              "target": "Package",
-              "version": "[5.3.0, )",
-              "noWarn": [
-                "NU1701"
-              ]
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )",
@@ -78,20 +71,13 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
-            "Microsoft.Owin.SelfHost": {
-              "target": "Package",
-              "version": "[4.2.2, )",
-              "noWarn": [
-                "NU1701"
-              ]
-            },
             "Npgsql": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.2, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.2, )"
             }
           },
           "imports": [

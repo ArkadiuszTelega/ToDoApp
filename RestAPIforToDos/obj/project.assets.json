@@ -50,24 +50,6 @@
           }
         }
       },
-      "Microsoft.AspNet.WebApi.Owin/5.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.WebApi.Core": "5.3.0",
-          "Microsoft.Owin": "4.2.2",
-          "Owin": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/System.Web.Http.Owin.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/System.Web.Http.Owin.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
         "compile": {
@@ -691,83 +673,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Owin/4.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Owin": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Owin.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Owin.Diagnostics/4.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Owin": "4.2.2",
-          "Owin": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Owin.Host.HttpListener/4.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Owin": "4.2.2",
-          "Owin": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Owin.Hosting/4.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Owin": "4.2.2",
-          "Owin": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Owin.Hosting.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Hosting.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Owin.SelfHost/4.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Owin": "4.2.2",
-          "Microsoft.Owin.Diagnostics": "4.2.2",
-          "Microsoft.Owin.Host.HttpListener": "4.2.2",
-          "Microsoft.Owin.Hosting": "4.2.2",
-          "Owin": "1.0.0"
-        }
-      },
       "Mono.TextTemplating/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -812,7 +717,7 @@
           }
         }
       },
-      "Npgsql/9.0.1": {
+      "Npgsql/9.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
@@ -828,12 +733,12 @@
           }
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.1": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "[9.0.0, 10.0.0)",
           "Microsoft.EntityFrameworkCore.Relational": "[9.0.0, 10.0.0)",
-          "Npgsql": "9.0.1"
+          "Npgsql": "9.0.2"
         },
         "compile": {
           "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
@@ -844,15 +749,6 @@
           "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Owin/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Owin.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Owin.dll": {}
         }
       },
       "System.CodeDom/6.0.0": {
@@ -1152,21 +1048,6 @@
         "lib/net45/System.Web.Http.xml",
         "microsoft.aspnet.webapi.core.5.3.0.nupkg.sha512",
         "microsoft.aspnet.webapi.core.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.WebApi.Owin/5.3.0": {
-      "sha512": "goLNSAd5Vzp6nKlCueU9IeV4HbqCYYhl2qjAPNJcvyoK1W3uq3AQeebRuFZeQ5zJG9+ACG5jCpOhEu98gw79hg==",
-      "type": "package",
-      "path": "microsoft.aspnet.webapi.owin/5.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NET.icon.png",
-        "NET_Library_EULA_ENU.txt",
-        "lib/net45/System.Web.Http.Owin.dll",
-        "lib/net45/System.Web.Http.Owin.xml",
-        "microsoft.aspnet.webapi.owin.5.3.0.nupkg.sha512",
-        "microsoft.aspnet.webapi.owin.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
@@ -2573,75 +2454,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Owin/4.2.2": {
-      "sha512": "jt410l/8dvCIguRdU7dupYdm4kGLepVdD8EOTKU4nYZcLRrn6kQYqI6pbJOTJp7Vlm/T2WUF5bzyKK2z29xtjg==",
-      "type": "package",
-      "path": "microsoft.owin/4.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/net45/Microsoft.Owin.dll",
-        "lib/net45/Microsoft.Owin.xml",
-        "microsoft.owin.4.2.2.nupkg.sha512",
-        "microsoft.owin.nuspec"
-      ]
-    },
-    "Microsoft.Owin.Diagnostics/4.2.2": {
-      "sha512": "2Ia8e/9qeMRdp9wSCcdgorooLGYnmlTVMP8n2BWHyzzGSJLdx50qerbvosgZBSpOxhd2PBmOAfY4nNnayvMygg==",
-      "type": "package",
-      "path": "microsoft.owin.diagnostics/4.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/net45/Microsoft.Owin.Diagnostics.dll",
-        "lib/net45/Microsoft.Owin.Diagnostics.xml",
-        "microsoft.owin.diagnostics.4.2.2.nupkg.sha512",
-        "microsoft.owin.diagnostics.nuspec"
-      ]
-    },
-    "Microsoft.Owin.Host.HttpListener/4.2.2": {
-      "sha512": "Kl1A0sBzfMD3qvX6XcGU0FopN6POFFRpIEQnKIAbvsShadIG9/UxgDdHVlX/IzFHXwIHfY59Ae4RGDVKYNvIqQ==",
-      "type": "package",
-      "path": "microsoft.owin.host.httplistener/4.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/net45/Microsoft.Owin.Host.HttpListener.dll",
-        "lib/net45/Microsoft.Owin.Host.HttpListener.xml",
-        "microsoft.owin.host.httplistener.4.2.2.nupkg.sha512",
-        "microsoft.owin.host.httplistener.nuspec"
-      ]
-    },
-    "Microsoft.Owin.Hosting/4.2.2": {
-      "sha512": "KsupM0TNPUfLn1uHvQy22IX6VWE+wi7C2shseSnhO9JYFxgwWcsSmjxrRpw+xcD+4hA3O280tBxfZ6T+kJuhjg==",
-      "type": "package",
-      "path": "microsoft.owin.hosting/4.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/net45/Microsoft.Owin.Hosting.dll",
-        "lib/net45/Microsoft.Owin.Hosting.xml",
-        "microsoft.owin.hosting.4.2.2.nupkg.sha512",
-        "microsoft.owin.hosting.nuspec"
-      ]
-    },
-    "Microsoft.Owin.SelfHost/4.2.2": {
-      "sha512": "v3+uEiIFPlaWwAPqOmF3XgjlyQhCnWKuwFU1v/7praTwkkaLXNJ8W4I3H81FGjKMIOPkrUyxfn3S3k4Tbe7u2Q==",
-      "type": "package",
-      "path": "microsoft.owin.selfhost/4.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "README.md",
-        "microsoft.owin.selfhost.4.2.2.nupkg.sha512",
-        "microsoft.owin.selfhost.nuspec"
-      ]
-    },
     "Mono.TextTemplating/3.0.0": {
       "sha512": "YqueG52R/Xej4VVbKuRIodjiAhV0HR/XVbLbNrJhCZnzjnSjgMJ/dCdV0akQQxavX6hp/LC6rqLGLcXeQYU7XA==",
       "type": "package",
@@ -2707,10 +2519,10 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "Npgsql/9.0.1": {
-      "sha512": "aZrXuBUUjRnvjoS4Lq0ZPYe3pnzAfK7TroGNGVpo4FCMBW1ypD/XfTTYjXpeRI8xcX5Otiv535Dy2jQWi98oeA==",
+    "Npgsql/9.0.2": {
+      "sha512": "hCbO8box7i/XXiTFqCJ3GoowyLqx3JXxyrbOJ6om7dr+eAknvBNhhUHeJVGAQo44sySZTfdVffp4BrtPeLZOAA==",
       "type": "package",
-      "path": "npgsql/9.0.1",
+      "path": "npgsql/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2719,36 +2531,24 @@
         "lib/net6.0/Npgsql.xml",
         "lib/net8.0/Npgsql.dll",
         "lib/net8.0/Npgsql.xml",
-        "npgsql.9.0.1.nupkg.sha512",
+        "npgsql.9.0.2.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.1": {
-      "sha512": "nN9Tjg73Edr4oBhNkBsfHBduNUlDFty1gIX0Ztp0np82ElSCiEcwRuN11Kv4kx2H9VDQaEeMwWAIym5aVsgVyg==",
+    "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.2": {
+      "sha512": "cYdOGplIvr9KgsG8nJ8xnzBTImeircbgetlzS1OmepS5dAQW6PuGpVrLOKBNEwEvGYZPsV8037X5vZ/Dmpwz7Q==",
       "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/9.0.1",
+      "path": "npgsql.entityframeworkcore.postgresql/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
         "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml",
-        "npgsql.entityframeworkcore.postgresql.9.0.1.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.9.0.2.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
-      ]
-    },
-    "Owin/1.0.0": {
-      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
-      "type": "package",
-      "path": "owin/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/Owin.dll",
-        "owin.1.0.0.nupkg.sha512",
-        "owin.nuspec"
       ]
     },
     "System.CodeDom/6.0.0": {
@@ -3203,12 +3003,10 @@
   "projectFileDependencyGroups": {
     "net9.0-windows10.0.26100": [
       "Microsoft.AspNet.WebApi.Core >= 5.3.0",
-      "Microsoft.AspNet.WebApi.Owin >= 5.3.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
-      "Microsoft.Owin.SelfHost >= 4.2.2",
-      "Npgsql >= 9.0.1",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.1"
+      "Npgsql >= 9.0.2",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.2"
     ]
   },
   "packageFolders": {
@@ -3218,11 +3016,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hero6\\source\\repos\\RestAPIforToDos\\RestAPIforToDos\\RestAPIforToDos.csproj",
+      "projectUniqueName": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\RestAPIforToDos.csproj",
       "projectName": "RestAPIforToDos",
-      "projectPath": "C:\\Users\\hero6\\source\\repos\\RestAPIforToDos\\RestAPIforToDos\\RestAPIforToDos.csproj",
+      "projectPath": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\RestAPIforToDos.csproj",
       "packagesPath": "C:\\Users\\hero6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hero6\\source\\repos\\RestAPIforToDos\\RestAPIforToDos\\obj\\",
+      "outputPath": "C:\\Users\\hero6\\Documents\\GitHub\\ToDoApp\\RestAPIforToDos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3269,13 +3067,6 @@
               "NU1701"
             ]
           },
-          "Microsoft.AspNet.WebApi.Owin": {
-            "target": "Package",
-            "version": "[5.3.0, )",
-            "noWarn": [
-              "NU1701"
-            ]
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[9.0.0, )",
@@ -3289,20 +3080,13 @@
             "target": "Package",
             "version": "[9.0.0, )"
           },
-          "Microsoft.Owin.SelfHost": {
-            "target": "Package",
-            "version": "[4.2.2, )",
-            "noWarn": [
-              "NU1701"
-            ]
-          },
           "Npgsql": {
             "target": "Package",
-            "version": "[9.0.1, )"
+            "version": "[9.0.2, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
-            "version": "[9.0.1, )"
+            "version": "[9.0.2, )"
           }
         },
         "imports": [
@@ -3339,57 +3123,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin 4.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows10.0.26100'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Owin",
-      "targetGraphs": [
-        "net9.0-windows10.0.26100"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Diagnostics 4.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows10.0.26100'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Owin.Diagnostics",
-      "targetGraphs": [
-        "net9.0-windows10.0.26100"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Host.HttpListener 4.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows10.0.26100'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Owin.Host.HttpListener",
-      "targetGraphs": [
-        "net9.0-windows10.0.26100"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Hosting 4.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows10.0.26100'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Owin.Hosting",
-      "targetGraphs": [
-        "net9.0-windows10.0.26100"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows10.0.26100'. This package may not be fully compatible with your project.",
-      "libraryId": "Owin",
-      "targetGraphs": [
-        "net9.0-windows10.0.26100"
-      ]
-    }
-  ]
+  }
 }

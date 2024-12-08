@@ -16,21 +16,23 @@ namespace RestAPIforToDos.Models
             _context = context;
         }
 
+        // Returns all ToDos
         public async Task<List<ToDo>> GetToDosAsync()
         {
             return await _context.ToDos.ToListAsync();
         }
 
-        public async Task<ToDo> GetToDoByIdAsync(int id)
+        // Returns ToDos to be done in given range
+        public async Task<List<ToDo>> GetToDosRangeAsync(DateTime startDate, DateTime endDate)
         {
-            var todo = await _context.ToDos.FindAsync(id);
-            if (todo != null)
-            {
-                return todo;
-            }else
-            {
-                return null;
-            }   
+            return await _context.ToDos
+                .Where(t => t.DateOfExpiry >= startDate && t.DateOfExpiry <= endDate)
+                .ToListAsync();
+        }
+
+        public async Task<ToDo?> GetToDoByIdAsync(int id)
+        {
+            return await _context.ToDos.FindAsync(id);
         }
 
         public async Task<List<ToDo>> GetDoneToDosAsync()
@@ -61,6 +63,33 @@ namespace RestAPIforToDos.Models
             if (toDo != null)
             {
                 _context.ToDos.Remove(toDo);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        public async Task MarkDoneToDoAsync(int id)
+        {
+            var toDo = await _context.ToDos.FindAsync(id);
+            if (toDo != null)
+            {
+                toDo.Complete = 100;
+                toDo.Done = true;
+                _context.ToDos.Update(toDo);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        public async Task MarkNotDoneToDoAsync(int id)
+        {
+            var toDo = await _context.ToDos.FindAsync(id);
+            if (toDo != null)
+            {
+                if (toDo.Complete >=100)
+                {
+                    toDo.Complete = 99;
+                }
+                toDo.Done = false;
+                _context.ToDos.Update(toDo);
                 await _context.SaveChangesAsync();
             }
         }

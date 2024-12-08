@@ -39,19 +39,6 @@
           }
         }
       },
-      "Microsoft.AspNet.WebApi.Owin/5.3.0": {
-        "dependencies": {
-          "Microsoft.AspNet.WebApi.Core": "5.3.0",
-          "Microsoft.Owin": "4.2.2",
-          "Owin": "1.0.0"
-        },
-        "runtime": {
-          "lib/net45/System.Web.Http.Owin.dll": {
-            "assemblyVersion": "5.3.0.0",
-            "fileVersion": "5.3.61130.707"
-          }
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -516,62 +503,6 @@
           }
         }
       },
-      "Microsoft.Owin/4.2.2": {
-        "dependencies": {
-          "Owin": "1.0.0"
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.dll": {
-            "assemblyVersion": "4.2.2.0",
-            "fileVersion": "4.200.222.26002"
-          }
-        }
-      },
-      "Microsoft.Owin.Diagnostics/4.2.2": {
-        "dependencies": {
-          "Microsoft.Owin": "4.2.2",
-          "Owin": "1.0.0"
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
-            "assemblyVersion": "4.2.2.0",
-            "fileVersion": "4.200.222.26002"
-          }
-        }
-      },
-      "Microsoft.Owin.Host.HttpListener/4.2.2": {
-        "dependencies": {
-          "Microsoft.Owin": "4.2.2",
-          "Owin": "1.0.0"
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
-            "assemblyVersion": "4.2.2.0",
-            "fileVersion": "4.200.222.26002"
-          }
-        }
-      },
-      "Microsoft.Owin.Hosting/4.2.2": {
-        "dependencies": {
-          "Microsoft.Owin": "4.2.2",
-          "Owin": "1.0.0"
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Hosting.dll": {
-            "assemblyVersion": "4.2.2.0",
-            "fileVersion": "4.200.222.26002"
-          }
-        }
-      },
-      "Microsoft.Owin.SelfHost/4.2.2": {
-        "dependencies": {
-          "Microsoft.Owin": "4.2.2",
-          "Microsoft.Owin.Diagnostics": "4.2.2",
-          "Microsoft.Owin.Host.HttpListener": "4.2.2",
-          "Microsoft.Owin.Hosting": "4.2.2",
-          "Owin": "1.0.0"
-        }
-      },
       "Mono.TextTemplating/3.0.0": {
         "dependencies": {
           "System.CodeDom": "6.0.0"
@@ -602,35 +533,27 @@
           }
         }
       },
-      "Npgsql/9.0.1": {
+      "Npgsql/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
         },
         "runtime": {
           "lib/net8.0/Npgsql.dll": {
-            "assemblyVersion": "9.0.1.0",
-            "fileVersion": "9.0.1.0"
+            "assemblyVersion": "9.0.2.0",
+            "fileVersion": "9.0.2.0"
           }
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.1": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.2": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.0",
-          "Npgsql": "9.0.1"
+          "Npgsql": "9.0.2"
         },
         "runtime": {
           "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
-            "assemblyVersion": "9.0.1.0",
-            "fileVersion": "9.0.1.0"
-          }
-        }
-      },
-      "Owin/1.0.0": {
-        "runtime": {
-          "lib/net40/Owin.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "9.0.2.0",
+            "fileVersion": "9.0.2.0"
           }
         }
       },
@@ -778,13 +701,6 @@
       "sha512": "sha512-h0oLsUFPgoB1R+6ichy1bniAs4oC6w6XrPsEgn+LuQBxBGskN0djSOSX7hzL8LTFEZUTdsh/3ShjRu1Mb2QRfw==",
       "path": "microsoft.aspnet.webapi.core/5.3.0",
       "hashPath": "microsoft.aspnet.webapi.core.5.3.0.nupkg.sha512"
-    },
-    "Microsoft.AspNet.WebApi.Owin/5.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-goLNSAd5Vzp6nKlCueU9IeV4HbqCYYhl2qjAPNJcvyoK1W3uq3AQeebRuFZeQ5zJG9+ACG5jCpOhEu98gw79hg==",
-      "path": "microsoft.aspnet.webapi.owin/5.3.0",
-      "hashPath": "microsoft.aspnet.webapi.owin.5.3.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
@@ -954,41 +870,6 @@
       "path": "microsoft.extensions.primitives/9.0.0",
       "hashPath": "microsoft.extensions.primitives.9.0.0.nupkg.sha512"
     },
-    "Microsoft.Owin/4.2.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jt410l/8dvCIguRdU7dupYdm4kGLepVdD8EOTKU4nYZcLRrn6kQYqI6pbJOTJp7Vlm/T2WUF5bzyKK2z29xtjg==",
-      "path": "microsoft.owin/4.2.2",
-      "hashPath": "microsoft.owin.4.2.2.nupkg.sha512"
-    },
-    "Microsoft.Owin.Diagnostics/4.2.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2Ia8e/9qeMRdp9wSCcdgorooLGYnmlTVMP8n2BWHyzzGSJLdx50qerbvosgZBSpOxhd2PBmOAfY4nNnayvMygg==",
-      "path": "microsoft.owin.diagnostics/4.2.2",
-      "hashPath": "microsoft.owin.diagnostics.4.2.2.nupkg.sha512"
-    },
-    "Microsoft.Owin.Host.HttpListener/4.2.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Kl1A0sBzfMD3qvX6XcGU0FopN6POFFRpIEQnKIAbvsShadIG9/UxgDdHVlX/IzFHXwIHfY59Ae4RGDVKYNvIqQ==",
-      "path": "microsoft.owin.host.httplistener/4.2.2",
-      "hashPath": "microsoft.owin.host.httplistener.4.2.2.nupkg.sha512"
-    },
-    "Microsoft.Owin.Hosting/4.2.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KsupM0TNPUfLn1uHvQy22IX6VWE+wi7C2shseSnhO9JYFxgwWcsSmjxrRpw+xcD+4hA3O280tBxfZ6T+kJuhjg==",
-      "path": "microsoft.owin.hosting/4.2.2",
-      "hashPath": "microsoft.owin.hosting.4.2.2.nupkg.sha512"
-    },
-    "Microsoft.Owin.SelfHost/4.2.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-v3+uEiIFPlaWwAPqOmF3XgjlyQhCnWKuwFU1v/7praTwkkaLXNJ8W4I3H81FGjKMIOPkrUyxfn3S3k4Tbe7u2Q==",
-      "path": "microsoft.owin.selfhost/4.2.2",
-      "hashPath": "microsoft.owin.selfhost.4.2.2.nupkg.sha512"
-    },
     "Mono.TextTemplating/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1010,26 +891,19 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
-    "Npgsql/9.0.1": {
+    "Npgsql/9.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aZrXuBUUjRnvjoS4Lq0ZPYe3pnzAfK7TroGNGVpo4FCMBW1ypD/XfTTYjXpeRI8xcX5Otiv535Dy2jQWi98oeA==",
-      "path": "npgsql/9.0.1",
-      "hashPath": "npgsql.9.0.1.nupkg.sha512"
+      "sha512": "sha512-hCbO8box7i/XXiTFqCJ3GoowyLqx3JXxyrbOJ6om7dr+eAknvBNhhUHeJVGAQo44sySZTfdVffp4BrtPeLZOAA==",
+      "path": "npgsql/9.0.2",
+      "hashPath": "npgsql.9.0.2.nupkg.sha512"
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.1": {
+    "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nN9Tjg73Edr4oBhNkBsfHBduNUlDFty1gIX0Ztp0np82ElSCiEcwRuN11Kv4kx2H9VDQaEeMwWAIym5aVsgVyg==",
-      "path": "npgsql.entityframeworkcore.postgresql/9.0.1",
-      "hashPath": "npgsql.entityframeworkcore.postgresql.9.0.1.nupkg.sha512"
-    },
-    "Owin/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
-      "path": "owin/1.0.0",
-      "hashPath": "owin.1.0.0.nupkg.sha512"
+      "sha512": "sha512-cYdOGplIvr9KgsG8nJ8xnzBTImeircbgetlzS1OmepS5dAQW6PuGpVrLOKBNEwEvGYZPsV8037X5vZ/Dmpwz7Q==",
+      "path": "npgsql.entityframeworkcore.postgresql/9.0.2",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.9.0.2.nupkg.sha512"
     },
     "System.CodeDom/6.0.0": {
       "type": "package",
